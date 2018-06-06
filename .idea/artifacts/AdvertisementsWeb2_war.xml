@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="AdvertisementsWeb2:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="WebAds.war">
+      <element id="artifact" artifact-name="AdvertisementsWeb2:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="jpa-descriptors" facet="AdvertisementsWeb2/jpa/JPA" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
